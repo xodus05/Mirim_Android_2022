@@ -7,20 +7,34 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:enabled="false"
-        android:text="버튼1"/>
-    <Button
+        android:textSize="30sp"
+        android:text="textSize 속성"/>
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="버튼2"/>
-    <Button
+        android:textSize="30sp"
+        android:textColor="#49AA75"
+        android:text="textColor 속성"/>
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:rotation="60"
-        android:clickable="false"
-        android:text="버튼3"/>
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:text="textStyle 속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:typeface="serif"
+        android:text="typeface 속성"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:singleLine="true"
+        android:text="SingleLine 속성 SingleLine 속성 SingleLine 속성 SingleLine 속성 SingleLine 속성"/>
 
 </LinearLayout>
